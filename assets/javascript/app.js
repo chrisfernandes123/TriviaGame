@@ -32,7 +32,7 @@ function showAnswer() {
 
   startTimeout = setTimeout(function () {
     stopwatch.start();
-  }, 1000);
+  }, 5000);
 }
 
 function showResults() {
