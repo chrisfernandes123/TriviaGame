@@ -64,7 +64,7 @@ function showResults() {
     $("#results").append("Q" + i + ": " + trivia["question" + i]["t"] + " (secs) <br>");
     
   }
-  $("#results").append("<br><b>Total elapsed time:</b>: " + trivia.totaltime + " (secs)<br>")
+  $("#results").append("<br><b>Total elapsed time:</b> " + trivia.totaltime + " (secs)<br>")
 
   var img = $("<img>");
   img.attr("src", currentCorrectAnswerPic);
